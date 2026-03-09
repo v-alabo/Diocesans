@@ -60,9 +60,10 @@ const Hero = () => {
           </button>
         </div>
           </div>
+          {/* 
 <div className='flex md:justify-center'>
     <img src={ hero1 } alt="" className='md:w-[80%] w-full md:h-110 h-86 rounded-2xl p-5' style={{background: "linear-gradient(160deg, #988468, #977566)"}}/>  
-</div>
+</div> */}
 
         </div>
       </motion.div>
