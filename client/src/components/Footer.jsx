@@ -8,66 +8,62 @@ const Footer = () => {
 
     <nav className='md:flex justify-between items-center md:p-6.25 p-5'>
       <div className='md:block flex justify-between items-center md:gap-0 gap-10  md:mb-0 mb-8'>
-      <img className="md:w-[20%] w-[25%] h-auto object-contain md:mb-5"  src={footer_logo} alt="" />
+                <div className='flex h-4 items-center'>
+                  <img src={footer_logo} className="md:h-auto h-12 object-contain md:mb-5" />
+                  <p className='mx-2 font-bold font-sans leading-4 text-xl'>DIOCESAN<span className='text-red-500'>S</span> <br /><span className='text-[#fbc647] text-[12px] font-medium'>ROBE MAKERS</span></p>
+                </div>
       <div className='md:w-[50%]'>
-      <p className='text-[13px]'>A premier cleaning company providing top-tier services, professional expertise, and spotless results.</p>
+      <p className='text-[13px]'>Suite SF-212, MKK Plaza, Plot 1086 Gudu District, Gudu Abuja</p>
     </div>
     </div>
 
     <div className='flex flex-wrap md:gap-20 justify-between gap-15'>
       <ul>
-      <p className='text-[18px] text-gray-600'>Services</p>
-      <li className='my-2 text-[15px]'>
-        <NavLink>Residential Cleaning</NavLink>
+      <p className='text-[18px] text-[#fbc647]'>Products</p>
+      <li className='my-2 text-[15px] text-[#fef3bd]'>
+        <NavLink>Custom Orders</NavLink>
         </li>
 
-        <li className='my-2 text-[15px]'>
-        <NavLink>Commercial Cleaning</NavLink>
+        <li className='my-2 text-[15px] text-[#fef3bd]'>
+        <NavLink>Chasubles</NavLink>
         </li>
 
-        <li className='my-2 text-[15px]'>
-        <NavLink>Specialised Cleaning</NavLink>
+        <li className='my-2 text-[15px] text-[#fef3bd]'>
+        <NavLink>Cassocks</NavLink>
         </li>
 
-                <li className='my-2 text-[15px]'>
-        <NavLink>Move-in/Move-out</NavLink>
+                <li className='my-2 text-[15px] text-[#fef3bd]'>
+        <NavLink>Stoles</NavLink>
+        </li>
+
+        <li className='my-2 text-[15px] text-[#fef3bd]'>
+        <NavLink>Albs</NavLink>
         </li>
     </ul>
-
+    
     <ul>
-      <p className='text-[18px] text-gray-600'>Company</p>
-      <li className='my-2 text-[15px]'>
-        <NavLink>About</NavLink>
+      <p className='text-[18px] text-[#fbc647]'>Connect</p>
+      <li className='my-2 text-[15px] text-[#fef3bd]'>
+        <NavLink>About Us</NavLink>
       </li>
 
-      <li className='my-2 text-[15px]'>
-        <NavLink>Terms of Service</NavLink>
+      <li className='my-2 text-[15px] text-[#fef3bd]'>
+        <NavLink>Testimonials</NavLink>
       </li>
 
-      <li className='my-2 text-[15px]'>
+      <li className='my-2 text-[15px] text-[#fef3bd]'>
         <NavLink>Privacy Policy</NavLink>
       </li>
 
-      <li className='my-2 text-[15px]'>
-        <NavLink>Disclaimer</NavLink>
+      <li className='my-2 text-[15px] text-[#fef3bd]'>
+        <NavLink>Gallery</NavLink>
+      </li>
+
+      <li className='my-2 text-[15px] text-[#fef3bd]'>
+        <NavLink>Contact</NavLink>
       </li>
     </ul>
 
-    <ul>
-      <p className='text-[18px] text-gray-600'>Support</p>
-      <li className='my-2 text-[15px]'>
-        <NavLink>Help Center</NavLink>
-      </li>
-
-      <li className='my-2 text-[15px]'>
-        <NavLink>Contact Us</NavLink>
-      </li>
-
-      <li className='my-2 text-[15px]'>
-        <NavLink>FAQ</NavLink>
-      </li>
-
-    </ul>
     </div>
 
     </nav>
