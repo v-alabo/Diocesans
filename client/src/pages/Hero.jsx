@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import bg1 from '../assets/bg1.png';
-import hero1 from '../assets/hero2.png';
+import hero1 from '../assets/hero3.png';
 import about from '../assets/about.png';
 import comit from '../assets/comiy.png';
 import test from '../assets/logo.png'
@@ -33,20 +33,20 @@ const Hero = () => {
         className="relative md:bg-cover md:bg-center md:py-80 py-80 px-5 min-h-screen"
         style={{ backgroundImage: `url(${bg1})` }}
       >
-        <div className="grid md:grid-cols-2 grid-cols-1 justify-between gap-5 absolute inset-0 bg-black/40 py-40 px-5">
-        <div>
-            <h3 className='p-1.5 text-[#fbc647] border border-amber-500 rounded-full px-4 py-1 mb-6 bg-[#fbc54752] md:w-fit md:text-sm md:text-start text-center'>HANDCRAFTED EXCELLENCE SINCE 1990</h3>
-          <h1 className="md:text-4xl text-2xl font-bold mb-5 text-[#ffffff] md:text-start text-center">
+        <div className="grid md:grid-cols-2 text-center absolute inset-0 bg-black/40 px-5">
+        <div className='flex flex-col items-center mx-auto max-w-md md:pt-45 pt-40 mb-6'>
+            <h3 className='p-1.5 text-[#fbc647] border border-amber-500 rounded-full w-fit px-4 py-1 mb-6 bg-[#fbc54752] md:text-sm text-center'>HANDCRAFTED EXCELLENCE SINCE 1990</h3>
+          <h1 className="md:text-4xl text-2xl font-bold mb-5 text-[#ffffff] text-center">
             VESTMENT CRAFTED <br /> WITH DEVOTION
           </h1>
           <p className="md:text-2xl text-xl text-[#ffffff] mb-5">
             For over three decades, we have been creating exquisite liturgical{""}
            
-            vestments for clergy across denomination. <br />Each piece{" "}
+            vestments for clergy across denomination.<br /> Each piece{" "}
             meticulosly handcrafted with reverence, precision, and
             unwavering commitment to sacred tradition.
           </p>
-          <div className='flex md:justify-start justify-center gap-10'>
+          <div className='flex justify-center gap-10'>
                       <button
             className="bg-[#fbc647] text-black rounded-xl p-3"
           >
@@ -60,20 +60,20 @@ const Hero = () => {
           </button>
         </div>
           </div>
-          {/* 
-<div className='flex md:justify-center'>
-    <img src={ hero1 } alt="" className='md:w-[80%] w-full md:h-110 h-86 rounded-2xl p-5' style={{background: "linear-gradient(160deg, #988468, #977566)"}}/>  
-</div> */}
+  
+<div className='flex md:justify-center h-full overflow-hidden md:pt-25 rounded-2xl'>
+    <img src={ hero1 } alt="" className='md:w-[75%] w-full h-[90%] rounded-2xl'/>  
+</div> 
 
         </div>
       </motion.div>
 
       <div>
-      <section className="min-h-screen flex items-center md:px-10 px-5 py-16" id='about'
+      <section className="flex items-center md:px-10 px-5 py-10" id='about'
       style={{ background: "linear-gradient(135deg, #f5e6d3 0%, #eddfc8 50%, #e8d4b8 100%)" }}
     >
       <div className="w-full">
-        <div className="grid md:grid-cols-2 gap-16 items-center">
+        <div className="grid md:grid-cols-2 gap-16 justify-between">
 
           <div className={`transition-all duration-700 ${visible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}`}>
             <h2 className="md:text-5xl text-3xl font-extrabold text-slate-900 mb-7 leading-tight tracking-tight">

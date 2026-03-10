@@ -6,14 +6,15 @@ const Footer = () => {
   return (
     <div className='bg-[#7b202e] text-black'>
 
-    <nav className='md:flex justify-between items-center md:p-6.25 p-5'>
+    <nav className='md:flex justify-between md:p-6.25 p-5'>
       <div className='md:block flex justify-between items-center md:gap-0 gap-10  md:mb-0 mb-8'>
-                <div className='flex h-4 items-center'>
-                  <img src={footer_logo} className="md:h-15 h-12 object-contain md:mb-5" />
+                <div className='flex h-4 justify-center items-center'>
+                  <img src={footer_logo} className="md:h-15 h-12 md:mb-5" />
                   <p className='mx-2 font-bold font-sans leading-4 text-2xl'>DIOCESAN<span className='text-red-500'>S</span> <br /><span className='text-[#fbc647] text-[12px] font-medium'>ROBE MAKERS</span></p>
                 </div>
       <div className='md:w-[50%]'>
-      <p className='text-[13px]'></p>
+      <p className='text-[13px]'>Suite SF-212, MKK Plaza, Plot 1086
+      Gudu District, Gudu Abuja</p>
     </div>
     </div>
 
